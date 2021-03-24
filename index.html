@@ -9,54 +9,50 @@
 </head>
 <body>
     <div class="calc-frame">
-        <form name="calculator">
+
+        <div class="calculator">
+
             <div id="calc-form">
                 <div id="bar">
-                    <button input type="text" name="display"></button>
                 </div>
+                <br></br>
+
+                <div class="grid-container">
+                    <button id="add" class="operation"> + </button>
+                    <button id="subtract" class="operation"> - </button>
+                    <button id="multiply" class="operation"> * </button>
+                    <button id="divide" class="operation"> / </button>
+                    
+            
                 
-                <div class="flex-row"></div>
-                    <button type="button" class="signs"> + </button>
-                    <button type="button" class="signs"> - </button>
-                    <button type="button" class="signs"> * </button>
-                    <button type="button" class="signs"> / </button>
-                    <br></br>
-                </div>
-
-                <div class="flex-row">
-                    <button type="button" class="signs"> 7 </button>
-                    <button type="button" class="signs"> 8 </button>
-                    <button type="button" class="signs"> 9 </button>
-                    <button type="button" class="signs"> = </button>
-                    <br></br>
-                </div>
-
-                <div class="flex-row">
-                    <button type="button" class="signs"> 4 </button>
-                    <button type="button" class="signs"> 5 </button>
-                    <button type="button" class="signs"> 6 </button>
-                    <br></br>
-                </div>
-
-                <div class="flex-row">
-                    <button type="button" class="signs"> 1 </button>
-                    <button type="button" class="signs"> 2 </button>
-                    <button type="button" class="signs"> 3 </button>
-                    <br></br>
-                </div>
-
-                <div class="flex-row">
-                    <button type="button" class="signs"> 0 </button>
-                    <button type="button" class="signs"> . </button>
-                    <button type="button" class="signs"> C </button>
-                    <br></br>
+                    <button id="num-7" class="signs"> 7 </button>
+                    <button type="num-8" class="signs"> 8 </button>
+                    <button type="num-9" class="signs"> 9 </button>
+                    <button type="operation" class="signs" id="equal"> = </button>
+                    
+            
+                
+                    <button type="num-4" class="signs"> 4 </button>
+                    <button type="num-5" class="signs"> 5 </button>
+                    <button type="num-6" class="signs"> 6 </button>
+                    
+                
+                    <button type="num-1" class="signs"> 1 </button>
+                    <button type="num-2" class="signs"> 2 </button>
+                    <button type="num-3" class="signs"> 3 </button>
+                    
+                
+                    <button type="num-0" class="signs"> 0 </button>
+                    <button type="dot" class="signs"> . </button>
+                    <button type="clear" class="signs"> C </button>
+                    
                 </div>
             </div>
             
         </form>
-        
-    </div>
+    </div>    
     
-</div>
+    
+    <script src="main.js"></script>
 </body>
 </html>

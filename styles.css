@@ -1,9 +1,13 @@
 body {
     background-color:#293241;
+    color: #97C1D9;
 }
 
 .calc-frame {
-    border-radius: 50%;
+    border-radius: 12px;
+    background-color: #97C1D9;
+    width: 500px;
+    
 }
 form {
     outline: 10px;
@@ -19,12 +23,15 @@ form {
 
 
 #bar {
-    display: flex;
-    flex-direction: column;
+    
     justify-content: space-between;
     border-radius: 4px;
-    height: 400%;
+    display: block;
     width: 100%;
+    border: none;
+    background-color: #4CAF50;
+    padding: 14px 28px;
+    font-size: 16px;
 
 }
 .signs {
@@ -34,3 +41,45 @@ form {
     width: 15px;
 }
 
+.operation {
+    background-color: #97C1D9;
+    border-radius: 8px;
+    height: 10px;
+    width: 15px;
+    font-size: 25px;
+    padding: 20px;
+    margin: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-row: 20% 20% 20% 20% 20%;
+    grid-template-areas: 
+    "operation operation operation operation"
+    "seven eight nine equal"
+    "four five six equal"
+    "one two three equal"
+    "zero dot clear equal";
+
+
+}
+
+#add {
+    grid-area: operation;
+}
+#subtract {
+    grid-area: operation;
+}
+
+#multiply {
+    grid-area: operation;
+}
+#divide {
+    grid-area: operation;
+}
+
+#num-7 {
+    grid-area: seven;
+}
+
+#num-8
