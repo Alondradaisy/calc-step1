@@ -1,25 +1,36 @@
 body {
     background-color:#293241;
+}
 
+.calc-frame {
+    border-radius: 50%;
 }
 form {
     outline: 10px;
     padding: 200px;
 }
 
-table {
-    
-    border-radius: 50%;
-    background-color: #E0FBFC;
-    margin: auto;
-    
-}
 .signs {
     font-size: 25px;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 20px;
     margin: 20px;
 }
-.calc-container {
-    border-radius: 50%;
+
+
+#bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 4px;
+    height: 400%;
+    width: 100%;
+
 }
+.signs {
+    background-color: #97C1D9;
+    border-radius: 8px;
+    height: 10px;
+    width: 15px;
+}
+
