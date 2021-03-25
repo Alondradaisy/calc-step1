@@ -29,13 +29,12 @@ body {
 #bar {
     
     border-radius: 2px;
-    display: inline-block;
-    
-    width: 85%;
+
+    width: 70%;
     height: 40px;
     background-color:#293241;
     padding: 10px;
-    margin: 15px;
+    margin: 0 auto;
 
 }
 
@@ -58,9 +57,9 @@ body {
     grid-template-areas: 
     "opr oper opera operation"
     "seven eight nine equal"
-    "four five six equa"
-    "one two three eq"
-    "zero dot clear e";
+    "four five six equal"
+    "one two three equal"
+    "zero dot clear equal";
 }
 
 #add {
@@ -105,6 +104,7 @@ body {
     grid-area: equal;
     background-color: #EE6C4D;
     color: white;
+    height: auto;
     
 
 }
