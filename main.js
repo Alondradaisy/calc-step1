@@ -48,10 +48,10 @@ function clearScreen() {
     firstNumber === 0 || operation === 0 || secondNumber === 0;
     return clearScreen;    
 }
-  
+
   // Updates the screen based on `firstNumber`, `operation`, and `secondNumber`
 function updateScreen() {
     screen.innerText = '';
 }
-  
   // TODO: write query selectors and add event listeners to the calculator's buttons
+
